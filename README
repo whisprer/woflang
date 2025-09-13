@@ -1,17 +1,14 @@
 ╦ ╦┌─┐┌─┐┬  ┌─┐┌┐┌┌─┐  
 ║║║│ │├┤ │  ├─┤││││ ┬  
-╚╩╝└─┘└  ┴─┘┴ ┴┘└┘└─┘ v1.1.0  
+╚╩╝└─┘└  ┴─┘┴ ┴┘└┘└─┘ v9.0.1  
 
 # WofLang - A Unicode-native Stack Language  
-
 **Creative, Symbolic, Secure Computation for the Modern Era**
 
 ---
 
 ## Intro  
-
 WofLang isn’t just another programming language—it’s an expressive, artistic, and philosophical computation system built for creative minds.  
-
 Inspired by Forth, J, and symbolic mathematics, WofLang lets you code with Unicode glyphs, manipulate meaning, and explore computation as art, ritual, and logic.
 
 ---
@@ -19,22 +16,17 @@ Inspired by Forth, J, and symbolic mathematics, WofLang lets you code with Unico
 ## Quickstart Guide
 
 ### Requirements
-
 - C++23 Compiler (MSVC recommended)
 - CMake (latest)
 - Windows-first, Linux port-friendly
 
 ### Building (Windows Example)
-
 ```sh
 git clone <repo_link>
 cd woflang
 cmake -B build
 cmake --build build --config Release
 Running
-sh
-Copy
-Edit
 cd build
 woflang.exe
 The REPL launches. You can immediately begin experimenting with Unicode-powered stack operations.
@@ -43,14 +35,9 @@ Getting Help
 Built-in help command inside REPL
 
 Official Documentation: /docs/manual.md
-
 Community: TBD
 
 Contributions: See /docs/contributing.md
-
-yaml
-Copy
-Edit
 
 ---
 
@@ -60,7 +47,6 @@ Edit
 # WofLang Overview  
 
 ## Core Concepts
-
 - **Stack-Based**: Operates on a clean stack machine
 - **Unicode Native**: Every symbol, rune, and glyph is valid code
 - **Modular & Extensible**: Plugins for AI, fractals, quantum ops, symbolic math
@@ -69,10 +55,15 @@ Edit
 - **SIMD Accelerated**: High-speed Unicode token processing
 
 ## Capabilities
-
 - Symbolic math & pattern logic
 - Markov AI math suggestion
 - Dynamic plugin loading
 - Concurrent flow primitives
 - Self-modifying, evolving code
 - OSINT, compression, and fractal tools
+
+## v9.0.1 expansions
+- 10 new advanced math modules allowing exploration and encoding of mathe with no bpundaries
+- all new math modules in plugin format so loaded optionally and individually by choice
+- beginning f analog and SIMD capabilities being introduced - aim to finish by v.10.0.0
+
